@@ -1,0 +1,52 @@
+.navlink {
+    border: rgb(0, 0, 0);
+    border-width: 20px;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    background-color:black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 40px 20px;
+    border-radius: 20rem;
+    border-width: 10px;
+    cursor: pointer;
+    box-shadow: 4px 6px 1px rgba(255, 255,255, 1);
+    transition-duration: 0.4s
+  }
+.navlink:hover{
+    box-shadow: 8px 10px 1px rgba(5, 5, 5, 1);
+    background-color: rgb(0, 255, 183);
+    color: black;
+}
+
+.navbar{
+    padding-left: 10rem;
+    background-color: rgb(255, 221, 0);
+}
+.body{
+    background-image: url("background.png");
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shopnow{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    padding: 2rem 6rem;
+    border-radius: 20px;
+    position: relative;
+    top: 350px;
+    left: 700px;
+    box-shadow: 4px 4px 1px rgba(255, 255,255, 1);
+    cursor:pointer;
+    font-style: bold;
+}
+.shopnow:hover{
+    box-shadow: 14px 14px 2px rgba(255, 255, 255, 1);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    transition-duration: 0.7s;
+}
